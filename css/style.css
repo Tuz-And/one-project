@@ -64,6 +64,7 @@ body{
 }
 .bg-header a{
 	color: #CB3362;
+	text-decoration: none;
 }
 .bg-header .row{
 	padding: 15px;
@@ -182,3 +183,38 @@ body{
 	
 }
 
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.Ellipse{
+		top: 400px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.Ellipse{
+		top: 288px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px){
+	.Ellipse{
+		top: 205px;
+	}
+	.Ellipse_2{
+		height: 105px;
+		width:105px;
+	}
+	.Ellipse_2_copy{
+		height: 105px;
+		width:105px;
+	}
+}
+@media (max-width: 575px){
+	.Ellipse{
+		display: none;
+	}
+	.bg-nav a{
+		padding:20px;
+	}
+}
