@@ -36,7 +36,12 @@
 @font-face {
     font-family: 'RammettoOne-Regular';
     src: url('../font/RammettoOne-Regular.ttf') format('ttf');
+     font-weight: normal;
+    font-style: normal;
 }
+
+
+
 
 
 
@@ -51,10 +56,9 @@ body{
 .bg-header ul{
 	list-style: none;
 	padding: 0;
-	
+	font-family: "lato-regular-webfont";
 	margin-bottom: 0;
 	font-size: 15px;
-	/*font-family: "Lato";*/
 	line-height: 1.2em;
 	text-transform: uppercase;
 }
@@ -72,12 +76,35 @@ body{
 .bg-header ul>li:hover{
 	height: 100%;
 }
+
+
+/*.Freeeze {
+  font-size: 8px;
+  font-family: "RammettoOne";
+  color: rgb(203, 51, 98);
+  line-height: 2.983;
+  text-align: left;
+  -moz-transform: matrix( 3.72893614831692,0,0,3.72893614831692,0,0);
+  -webkit-transform: matrix( 3.72893614831692,0,0,3.72893614831692,0,0);
+  -ms-transform: matrix( 3.72893614831692,0,0,3.72893614831692,0,0);
+  position: absolute;
+  left: 415.614px;
+  top: 52.501px;
+  z-index: 340;
+}*/
+
+
+
+
 .freeeze {
-	background: url(image/Rectangle 2 copy.png) no-repeat;
+	background: url("../image/Rectangle 2 copy.png") 110px 0 no-repeat;
+	font-family: "RammettoOne-Regular";
 	font-size: 28px;
-	/*font-family: "RammettoOne";*/
 	text-align: left;
-	font-weight: bold;
+	height: 80px;
+
+	/*font-weight: bold;*/
+	/*font-style: italic;*/
   }
 .freeeze span{
 	color: #c8c10d;
@@ -94,14 +121,13 @@ body{
   position: absolute;
   left:13px;
   top:0;
-  /*left: 1007px;*/
-  /*top: 557px;*/
   width: 143px;
   height: 143px;
   z-index: 274;
   color: white;
   font-size: 20px;
   text-align: center;
+  font-family:"quicksand-bold-webfont";
 }
 .Ellipse_2_copy {
   border-radius: 50%;
@@ -109,21 +135,23 @@ body{
   position: absolute;
   left:0;
   top:7px;
-  /*left: 994px;*/
-  /*top: 564px;*/
   width: 143px;
   height: 143px;
   z-index: 273;
 }
 .bg-product{
 	background-color: #eae7e8;
+	font-family: 'lato-bold-webfont';
 }
 .product{
 	height: 251px;
 	padding: 0 10px;
 	color: #7a6666;
 }
+
+
 .product h3{
+
 	text-transform:uppercase;
 }
 .product h2{
@@ -131,7 +159,7 @@ body{
 }
 .bg-nav{
 	background-color: #c8c10d;
-	
+	font-family: "lato-regular-webfont";
 	text-align: center;
 }
 .bg-nav a{
@@ -144,6 +172,7 @@ body{
 .bg-futer{
 	background-color: #cb3362;
 	color: white;
+	font-family: 'roboto-regular-webfont';
 	padding: 40px 0;
 }
 .bg-futer a{
@@ -152,3 +181,4 @@ body{
 	font-size: 30px;
 	
 }
+
