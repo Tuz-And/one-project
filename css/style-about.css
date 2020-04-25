@@ -14,6 +14,16 @@
 .bg-pirotheno, main .left{
 	background: #ebebed;
 }	
+main h2{
+	text-transform: uppercase;
+}
+main .left{
+	margin-top: 15px;
+}
+main .left{
+	line-height:3em;
+	text-align: center;
+}
 @media (max-width: 991px){
 	.bg-pirotheno img{
 		display: none;
