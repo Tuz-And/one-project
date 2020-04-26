@@ -1,45 +1,49 @@
 @font-face {
     font-family: 'lato-bold-webfont';
-    src: url('../font/lato-bold-webfont.eot') format('eot'),
-		url('../font/lato-bold-webfont.svg') format('svg'),
-		url('../font/lato-bold-webfont.ttf') format('ttf'),
-		url('../font/lato-bold-webfont.woff') format('woff');
+    src: url('../font/lato-bold-webfont.eot'),
+		url('../font/lato-bold-webfont.svg'),
+		url('../font/lato-bold-webfont.ttf'),
+		url('../font/lato-bold-webfont.woff');
 }
 @font-face {
     font-family: 'lato-regular-webfont';
-    src: url('../font/lato-regular-webfont.eot') format('eot'),
-		url('../font/lato-regular-webfont.svg') format('svg'),
-		url('../font/lato-regular-webfont.ttf') format('ttf'),
-		url('../font/lato-regular-webfont.woff') format('woff');
+    src: url('../font/lato-regular-webfont.woff'),
+       	url('../font/lato-regular-webfont.eot'),
+		url('../font/lato-regular-webfont.svg'),
+		url('../font/lato-regular-webfont.ttf');
+		
 }
 @font-face {
     font-family: 'magra-bold-webfont';
-    src: url('../font/magra-bold-webfont.eot') format('eot'),
-		url('../font/magra-bold-webfont.svg') format('svg'),
-		url('../font/magra-bold-webfont.ttf') format('ttf'),
-		url('../font/magra-bold-webfont.woff') format('woff');
+    src: url('../font/magra-bold-webfont.eot'),
+		url('../font/magra-bold-webfont.svg'),
+		url('../font/magra-bold-webfont.ttf'),
+		url('../font/magra-bold-webfont.woff');
 }
 @font-face {
     font-family: 'quicksand-bold-webfont';
-    src: url('../font/quicksand-bold-webfont.eot') format('eot'),
-		url('../font/quicksand-bold-webfont.svg') format('svg'),
-		url('../font/quicksand-bold-webfont.ttf') format('ttf'),
-		url('../font/quicksand-bold-webfont.woff') format('woff');
+    src: url('../font/quicksand-bold-webfont.eot'),
+		url('../font/quicksand-bold-webfont.svg'),
+		url('../font/quicksand-bold-webfont.ttf'),
+		url('../font/quicksand-bold-webfont.woff');
 }
 @font-face {
     font-family: 'roboto-regular-webfont';
-    src: url('../font/roboto-regular-webfont.eot') format('eot'),
-		url('../font/roboto-regular-webfont.svg') format('svg'),
-		url('../font/roboto-regular-webfont.ttf') format('ttf'),
-		url('../font/roboto-regular-webfont.woff') format('woff');
+    src: url('../font/roboto-regular-webfont.woff'),
+    url('../font/roboto-regular-webfont.eot'),
+		url('../font/roboto-regular-webfont.svg'),
+		url('../font/roboto-regular-webfont.ttf');
 }
 @font-face {
     font-family: 'RammettoOne-Regular';
-    src: url('../font/RammettoOne-Regular.ttf') format('ttf');
-     font-weight: normal;
+    src: url('../font/rammettoone-regular-webfont.woff2'),
+         url('../font/rammettoone-regular-webfont.woff'),
+         url('../font/rammettoone-regular-webfont.svg'),
+         url('../font/RammettoOne-Regular.ttf');
+    font-weight: normal;
     font-style: normal;
-}
 
+}
 
 
 
@@ -73,45 +77,28 @@ body{
 }
 .bg-header{
 	background-color: #eae7e8;
-	color: #CB3362;
-	font-weight: bold;
 }
-.bg-header ul{
-	list-style: none;
-	padding: 0;
-	font-family: "lato-regular-webfont";
-	margin-bottom: 0;
-	font-size: 15px;
-	line-height: 1.8em;
-	text-transform: uppercase;
-}
-.bg-header a{
-	color: #CB3362;
-	text-decoration: none;
-}
-.bg-header .row{
-	padding: 15px;
-}
-.bg-header ul>li{
-	/*height: 30px;*/
-	/*overflow: hidden;*/
-
-}
-.bg-header ul>li:hover{
-	height: 100%;
-}
-
-
 .freeeze {
-	background: url("../image/Rectangle 2 copy.png") 110px 0 no-repeat;
-	font-family: "RammettoOne-Regular";
-	font-size: 28px;
-	text-align: left;
-	height: 80px;
-
+	background: url("../image/Rectangle 2 copy.png") 100px 0 no-repeat;
+	font:30px RammettoOne-Regular;
+	color:#cb3362;
   }
 .freeeze span{
 	color: #c8c10d;
+}
+header{
+	padding: 30px 0;
+}
+header ul{
+	list-style: none;
+	padding-left:0;
+	text-transform: uppercase;
+	text-align: center;
+	font:15px lato-regular-webfont;
+}
+header ul a{
+	text-decoration: none;
+	color:#826f6f;
 }
 .Ellipse{
 	position: relative;
@@ -131,7 +118,7 @@ body{
   color: white;
   font-size: 20px;
   text-align: center;
-  font-family:"quicksand-bold-webfont";
+  font-family:quicksand-bold-webfont;
 }
 .Ellipse_2_copy {
   border-radius: 50%;
@@ -152,34 +139,38 @@ body{
 	padding: 0 10px;
 	
 }
+.aside{
+	padding: 30px;
+}
+
 main *{
 	padding: 15px;
 }
 main h3, main p{
 	color: #7a6666;
-	font-family: "lato-regular-webfont";
+	font: lato-regular-webfont;
 }
  
 main h2{
 	color:  #CB3362;
-	font-family: 'lato-bold-webfont';
+	font:20px lato-bold-webfont;
 }
 .bg-nav{
 	background-color: #c8c10d;
-	font-family: "lato-regular-webfont";
+	font-family: lato-regular-webfont;
 	text-align: center;
 }
 .bg-nav a{
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 40px;
+	padding: 40px 10px;
 	display: inline-block;
 }
 .bg-futer{
 	background-color: #cb3362;
 	color: white;
-	font-family: 'roboto-regular-webfont';
+	font-family: roboto-regular-webfont;
 	padding: 40px 0;
 }
 .bg-futer a{
@@ -216,54 +207,55 @@ main h2{
 		width:105px;
 	}
 }
+
 @media (max-width: 575px){
 	.Ellipse{
-		display: none;
-	}
-	.bg-nav a{
-		padding:20px;
-	}
-	.nav{
-		background: url("../image/menu.png") 100% 0 no-repeat;
-		height:40px;
-		width: 40px;
-		overflow: hidden;
+			display: none;
+		}
+	header ul.nav{
+		background: url("../image/menu.png") no-repeat;
+		background-position: 100% 0;
 		position: fixed;
-		top: 10px;
-		right: 10px;
-		display: block;
-		z-index: 20;
-	}
-	.nav:hover{
-		width: 150px;
-		height: 350px;
-		/*transition: width .2s ease-in-out, height 0.5s ease-in-out; */
-	}
-	.nav>li:first-child::before{
-		content:'';
-		display: block;
-		height:40px;
-		/*width: 40px;*/
-	}
-	li{
-		display: block !important;
-		list-style: none;
-		margin: 5px 0;
-		padding-left: 0; 
-	}
-	li a{
-		background-color: #aaa;
+		top:20px;
+		right: 20px;
 		height: 40px;
-		width: 120px;
-		border-radius: 8px;
-		display: inline-block;
-		text-align: center;
-		padding-top: 10px;
-
+		width:40px;
+		overflow: hidden;
+		z-index: 999;
 	}
-	li a:hover{
-		background-color: #22DCD3FF;
-		/*transition: background-color 0.2s ease-in-out;*/
-
+	header ul li{
+		margin: 5px 0;
+	}
+	header ul a {
+		width: 120px;
+		height: 40px;
+		background: #b1f2e8;
+		display: block;
+		border: 1px solid #ddd;
+		border-radius: 5px 25px; 
+		
+		padding-top: 5px;
+	}
+	ul.nav>li:first-child::before{
+		content:'';
+		display: inline-block;
+		height: 40px;
+	}
+	ul.nav:hover{
+		width: 140px;
+		height: 315px;
+	}	
+}
+@media (min-width: 576px){
+	header ul.nav{
+		display: flex;
+		justify-content:space-around;
+	}
+	header ul.nav>li{
+		height: 20px;
+		overflow: hidden;
+	}
+	header ul.nav>li:hover{
+		overflow: visible;
 	}
 }

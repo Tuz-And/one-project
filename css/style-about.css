@@ -11,16 +11,19 @@
 }
 
 
-.bg-pirotheno, main .left{
+.bg-pirotheno, .aside{
 	background: #ebebed;
 }	
 main h2{
 	text-transform: uppercase;
 }
-main .left{
+.aside h2{
+	line-height:2em;
+}
+.aside{
 	margin-top: 15px;
 }
-main .left{
+.aside{
 	line-height:3em;
 	text-align: center;
 }
